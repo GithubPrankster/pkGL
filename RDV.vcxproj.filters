@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\shaderRes">
+      <UniqueIdentifier>{7bc0d450-45b1-4018-9b8d-9bb9be8d9609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Component Handlers">
+      <UniqueIdentifier>{f5ea096d-2c21-42e4-825e-eeb2211cc076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Formats">
+      <UniqueIdentifier>{d452db3a-ecb1-4a4a-ba5b-1a9b43436ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Component Handlers\Important">
+      <UniqueIdentifier>{10fb33fe-b9d5-41f2-9593-9b90b8ae55b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Component Handlers\Common FX">
+      <UniqueIdentifier>{dc3522dc-2c7b-4325-837d-8015dbbc11d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaderRes\Basic">
+      <UniqueIdentifier>{b24a8230-f05a-4428-87a0-c2cbaef9c56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaderRes\Screen">
+      <UniqueIdentifier>{3d603605-eee8-426d-997d-f603a4f496c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaderRes\Directional Shadow">
+      <UniqueIdentifier>{eebd536d-edc0-42d8-8363-adb09b473390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaderRes\Point Shadow">
+      <UniqueIdentifier>{60853f2b-c5a0-4072-958c-034c7af064f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Header Files\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="screenVertex.h">
+      <Filter>Header Files\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraHandler.h">
+      <Filter>Header Files\Component Handlers\Important</Filter>
+    </ClInclude>
+    <ClInclude Include="meshHandler.h">
+      <Filter>Header Files\Component Handlers\Important</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderLoader.h">
+      <Filter>Header Files\Component Handlers\Important</Filter>
+    </ClInclude>
+    <ClInclude Include="textureHandler.h">
+      <Filter>Header Files\Component Handlers\Important</Filter>
+    </ClInclude>
+    <ClInclude Include="framebufferHandler.h">
+      <Filter>Header Files\Component Handlers\Common FX</Filter>
+    </ClInclude>
+    <ClInclude Include="quadHandler.h">
+      <Filter>Header Files\Component Handlers\Common FX</Filter>
+    </ClInclude>
+    <ClInclude Include="shadowHandler.h">
+      <Filter>Header Files\Component Handlers\Common FX</Filter>
+    </ClInclude>
+    <ClInclude Include="shadowcubeHandler.h">
+      <Filter>Header Files\Component Handlers\Common FX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaderRes\basic.vs">
+      <Filter>Resource Files\shaderRes\Basic</Filter>
+    </None>
+    <None Include="shaderRes\basic.fs">
+      <Filter>Resource Files\shaderRes\Basic</Filter>
+    </None>
+    <None Include="shaderRes\screen.fs">
+      <Filter>Resource Files\shaderRes\Screen</Filter>
+    </None>
+    <None Include="shaderRes\screen.vs">
+      <Filter>Resource Files\shaderRes\Screen</Filter>
+    </None>
+    <None Include="shaderRes\shadow.vs">
+      <Filter>Resource Files\shaderRes\Directional Shadow</Filter>
+    </None>
+    <None Include="shaderRes\shadow.fs">
+      <Filter>Resource Files\shaderRes\Directional Shadow</Filter>
+    </None>
+    <None Include="shaderRes\shadowcube.fs">
+      <Filter>Resource Files\shaderRes\Point Shadow</Filter>
+    </None>
+    <None Include="shaderRes\shadowcube.gs">
+      <Filter>Resource Files\shaderRes\Point Shadow</Filter>
+    </None>
+    <None Include="shaderRes\shadowcube.vs">
+      <Filter>Resource Files\shaderRes\Point Shadow</Filter>
+    </None>
+  </ItemGroup>
+</Project>
