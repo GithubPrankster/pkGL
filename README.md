@@ -10,3 +10,7 @@ OpenGL Renderer in C++ with OBJ and texture loading
 *tiny_obj_loader.h: OBJ loading.* **MIT License**
 
 *stb_image.h: Image loading.* **Public Domain**
+
+**Setup:**
+
+All you need to do is supply GLFW and GLAD, and then put in an OBJ and a texture for it. Go nuts.
