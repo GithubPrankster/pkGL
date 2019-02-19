@@ -41,11 +41,13 @@ public:
 
 #endif
 //Leave as 0 if no texture.
-void textureBind(unsigned int diffuse, unsigned int specular) {
+void textureBind(unsigned int diffuse, unsigned int specular = 0, unsigned int depthMap = 0) {
 	glActiveTexture(GL_TEXTURE0);
 	glBindTexture(GL_TEXTURE_2D, diffuse);
 	glActiveTexture(GL_TEXTURE1);
-	glBindTexture(GL_TEXTURE_CUBE_MAP, specular);
+	glBindTexture(GL_TEXTURE_2D, specular);
+	glActiveTexture(GL_TEXTURE2);
+	glBindTexture(GL_TEXTURE_2D, depthMap);
 }
 //Create a cool icon and assign it.
 void iconAssign(const char* path, GLFWwindow* window) {

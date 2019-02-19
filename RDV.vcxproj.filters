@@ -37,9 +37,6 @@
     <Filter Include="Resource Files\shaderRes\Directional Shadow">
       <UniqueIdentifier>{eebd536d-edc0-42d8-8363-adb09b473390}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\shaderRes\Point Shadow">
-      <UniqueIdentifier>{60853f2b-c5a0-4072-958c-034c7af064f6}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -62,9 +59,6 @@
     <ClInclude Include="screenVertex.h">
       <Filter>Header Files\Formats</Filter>
     </ClInclude>
-    <ClInclude Include="cameraHandler.h">
-      <Filter>Header Files\Component Handlers\Important</Filter>
-    </ClInclude>
     <ClInclude Include="meshHandler.h">
       <Filter>Header Files\Component Handlers\Important</Filter>
     </ClInclude>
@@ -83,7 +77,7 @@
     <ClInclude Include="shadowHandler.h">
       <Filter>Header Files\Component Handlers\Common FX</Filter>
     </ClInclude>
-    <ClInclude Include="shadowcubeHandler.h">
+    <ClInclude Include="cubemapHandler.h">
       <Filter>Header Files\Component Handlers\Common FX</Filter>
     </ClInclude>
   </ItemGroup>
@@ -105,15 +99,6 @@
     </None>
     <None Include="shaderRes\shadow.fs">
       <Filter>Resource Files\shaderRes\Directional Shadow</Filter>
-    </None>
-    <None Include="shaderRes\shadowcube.fs">
-      <Filter>Resource Files\shaderRes\Point Shadow</Filter>
-    </None>
-    <None Include="shaderRes\shadowcube.gs">
-      <Filter>Resource Files\shaderRes\Point Shadow</Filter>
-    </None>
-    <None Include="shaderRes\shadowcube.vs">
-      <Filter>Resource Files\shaderRes\Point Shadow</Filter>
     </None>
   </ItemGroup>
 </Project>
